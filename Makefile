@@ -47,3 +47,4 @@ joplin:
 comalias:
 	 echo 'alias upjoplin='wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash' >> ~/.zshrc
 	 echo 'alias pkgupdate='sudo dnf update -y && flatpak update -y' >> ~/.zshrc
+	 source ~/.zshrc
