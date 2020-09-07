@@ -5,14 +5,14 @@ fonts:
 	sudo dnf -y install adobe-source-code-pro-fonts adobe-source-sans-pro-fonts fontawesome-fonts
 
 conda:
-	wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh | bash
+	curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && bash Miniconda3-latest-Linux-x86_64.sh
 
 zsh:
 	sudo dnf install -y zsh
 	chsh -s /bin/zsh
 	
 ohmyzsh:
-	$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 rpmfusion:
 	sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
