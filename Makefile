@@ -44,6 +44,7 @@ sshkey:
 gitconfig:
 	git config --global user.name "$(name)"
 	git config --global user.email "$(email)"
+	git config --global core.editor "$(editor)"
 
 joplin:
 	wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash

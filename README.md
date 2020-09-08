@@ -14,7 +14,8 @@ nvidia - installs nvidia drivers from rpmfusion
 themes - installs my preffered themes
 flatpaks - installs my preffered flatpaks
 R - installs the R metapackage and Rstudio
-sshkey - generates ssh keys
+sshkey - generates ssh keys with email parameter
+gitconfig - configures git settings with email, name and editor parameters
 joplin - installs joplin
 comalias - adds alias' at the end of ~/.zshrc
 ```
