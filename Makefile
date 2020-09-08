@@ -41,6 +41,10 @@ sshkey:
 	eval "$(ssh-agent -s)"
 	ssh-add ~/.ssh/id_rsa
 
+gitconfig:
+	git config --global user.name "$(name)"
+	git config --global user.email "$(email)"
+
 joplin:
 	wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
 
