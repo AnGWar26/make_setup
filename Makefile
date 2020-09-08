@@ -2,7 +2,7 @@ tex:
 	sudo dnf -y install texlive-scheme-basic
 
 fonts:
-	sudo dnf -y install adobe-source-code-pro-fonts adobe-source-sans-pro-fonts fontawesome-fonts
+	sudo dnf -y install adobe-source-code-pro-fonts adobe-source-sans-pro-fonts fontawesome-fonts google-roboto-fonts texlive-roboto
 
 conda:
 	curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && bash Miniconda3-latest-Linux-x86_64.sh
