@@ -37,7 +37,7 @@ R:
 	sudo dnf install R rstudio-desktop
 
 sshkey:
-	ssh-keygen -t rsa -b 4096 -C "andrew.warfield@protonmail.com"
+	ssh-keygen -t rsa -b 4096 -C "$(email)"
 	eval "$(ssh-agent -s)"
 	ssh-add ~/.ssh/id_rsa
 
