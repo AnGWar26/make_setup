@@ -25,7 +25,7 @@ nvidia:
 	sudo dnf install -y akmod-nvidia xorg-x11-drv-nvidia-cuda
 
 themes:
-	sudo dnf install -y flat-remix-icon-theme flat-remix-gtk3-theme flat-remix-gtk2-theme flat-remix-theme gnome-shell-theme-flat-remix gnome-tweaks 
+	sudo dnf install -y papirus-icon-theme adapta-gtk-theme flat-remix-icon-theme flat-remix-gtk3-theme flat-remix-gtk2-theme flat-remix-theme gnome-shell-theme-flat-remix gnome-tweaks 
 
 flatpaks:
 	sudo dnf install -y flatpak
