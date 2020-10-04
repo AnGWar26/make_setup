@@ -22,11 +22,10 @@ rpmfusion:
 
 # only after make rpmfusion; wait for driver to build before reboot
 nvidia:
-	sudo dnf install akmod-nvidia 
-	sudo dnf install xorg-x11-drv-nvidia-cuda
+	sudo dnf install -y akmod-nvidia xorg-x11-drv-nvidia-cuda
 
 themes:
-	sudo dnf install flat-remix-icon-theme flat-remix-gtk3-theme flat-remix-gtk2-theme flat-remix-theme gnome-shell-theme-flat-remix gnome-tweaks
+	sudo dnf install -y flat-remix-icon-theme flat-remix-gtk3-theme flat-remix-gtk2-theme flat-remix-theme gnome-shell-theme-flat-remix gnome-tweaks 
 
 flatpaks:
 	sudo dnf install -y flatpak
