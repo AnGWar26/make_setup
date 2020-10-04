@@ -34,7 +34,7 @@ flatpaks:
 	flatpak install -y com.spotify.Client com.belmoussaoui.Obfuscate com.discordapp.Discord com.valvesoftware.Steam us.zoom.Zoom com.slack.Slack com.vscodium.codium
 
 R:
-	sudo dnf install R rstudio-desktop
+	sudo dnf install R rstudio-desktop libicu65
 
 sshkey:
 	ssh-keygen -t rsa -b 4096 -C "$(email)"
